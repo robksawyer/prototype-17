@@ -7,8 +7,7 @@ module.exports = {
   // If you want to support toggling dark mode manually instead of relying on the operating
   // system preference, use the class strategy instead of the media strategy
   darkMode: 'class',
-  important: true,
-  content: ['./src/**/*.{html,js}'],
+  content: ['./src/**/*.{html,js,jsx}'],
   theme: {
     extend: {
       colors: {

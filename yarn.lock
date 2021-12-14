@@ -1082,6 +1082,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@kelleyvanevert/ascii-morph@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@kelleyvanevert/ascii-morph/-/ascii-morph-0.0.1.tgz#e1e0b4ae0af42b67acd0eacd04370eab281629a9"
+  integrity sha512-iMJ11hQ+o3I9sqqh9gyLRgaaa2rn0ogIyFCX4DoRPcczJ5aTLIdjT+TxNVvIB+VeT8zVUy6jFIyf0w2/garYHQ==
+
 "@napi-rs/triples@1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"

@@ -1,17 +1,14 @@
-import React from 'react'
-import Head from 'next/head'
-import dynamic from 'next/dynamic'
-import styles from '../styles/Home.module.css'
+import React from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import styles from '../styles/Home.module.css';
 
-const MainScene = dynamic(() => import('@/components/MainScene'), {
-  ssr: false,
-})
-import HamburgerMenu from '@/components/HamburgerMenu'
-// import WaveText from '@/components/WaveText'
+import HamburgerMenu from '@/components/HamburgerMenu';
+import ASCIIMorph from '@/components/ASCIIMorph/ASCIIMorph';
 
-const CursorCircle = dynamic(() => import('@/components/CursorCircle'), {
-  ssr: false,
-})
+// const CursorCircle = dynamic(() => import('@/components/CursorCircle'), {
+//   ssr: false,
+// });
 
 export default function Home() {
   return (
@@ -24,8 +21,7 @@ export default function Home() {
       </Head>
       <HamburgerMenu />
       <main className={`${styles.main} flex flex-grow flex-col`}>
-        <MainScene />
-        {/* <WaveText className="absolute bottom-0 flex items-center justify-center w-screen h-screen pointer-events-none select-none" /> */}
+        <ASCIIMorph />
       </main>
 
       <footer
@@ -33,7 +29,7 @@ export default function Home() {
       >
         Powered by passion
       </footer>
-      <CursorCircle />
+      {/* <CursorCircle /> */}
     </div>
-  )
+  );
 }
